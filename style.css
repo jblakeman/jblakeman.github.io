@@ -1,16 +1,14 @@
-
-/*Suggestion: Your Introduction might look better if it were framed in a box. But everything else looks great!*/
 body {
     font-family: Arial, sans-serif;
     font-size: 1rem;
 }
-header {
+.headbg {
     background: url("https://static.pexels.com/photos/2988/pattern-triangles.jpg");
     background-size: cover;
     min-height: 150px;
     outline: 1px solid black;
 }
-h1, .tagline {
+header {
     text-align: center;
 }
 h1 {
@@ -22,19 +20,23 @@ h1 {
     font-size: 1rem;
 }
 article {
-    min-height: 250px;
-    max-width: 500px;
-    border-top: 2px solid black;
     border-bottom: 2px solid black;
-    border-radius: 5px;
     padding: 0 20px 0 20px;
+}
+.textbox {
+    border-top: 2px solid black;
+    height: 350px;
+    max-width: 500px;
     margin: 0 auto;
 }
 footer {
     text-align: center;
-    padding-top: 10px;
+    padding: 15px 0 15px 0;
+    background: rgb(50, 50, 50);
+    overflow: auto;
 }
 footer a {
     margin: 0 10px;
     display: inline-block;
+    color: rgb(28, 229, 147);
 }
