@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 1rem;
     margin: 0;
+    background: #E5E5E5;
 }
 .headbg {
     background: url("https://static.pexels.com/photos/2988/pattern-triangles.jpg");
@@ -11,29 +12,29 @@ body {
 }
 header {
     text-align: center;
+    padding-top: 20px;
 }
 h1 {
-    padding-top: 20px;
     font-size: 55px;
-    margin: 0 0 -10px 0;
 }
 .tagline {
-    font-size: 1rem;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    height: 100%;
 }
 article {
-    border-bottom: 2px solid black;
-    padding: 0 20px 0 20px;
-}
-.textbox {
-    border-top: 2px solid black;
-    height: 350px;
+    border-top: 4px solid rgb(50, 50, 50);
+    padding: 10px;
     max-width: 500px;
     margin: 0 auto;
 }
 footer {
     text-align: center;
     padding: 15px 0 15px 0;
-    background: rgb(50, 50, 50);
+    background: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 footer a {
     margin: 0 10px;
