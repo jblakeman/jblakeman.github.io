@@ -17,6 +17,9 @@ main {
 main a {
     color: black;
 }
+main p {
+    font-size: 18px;
+}
 header, footer {
     text-align: center;
     padding: 15px 0 15px 0;
