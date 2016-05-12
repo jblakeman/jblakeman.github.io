@@ -1,0 +1,14 @@
+article {
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -40px;
+    padding-bottom: 80px;
+}
+article h1 {
+    text-align: center;
+}
+article h1 a {
+    text-decoration: none;
+}
